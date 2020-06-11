@@ -28,11 +28,11 @@ function isValidURL(url: string) {
           // Cleanup
           deleteLocalFiles([filename])
         }
-      });
+      })
     } else {
       res.status(400).send('Invalid image URL!')
     }
-  });
+  })
 
 
   // Root Endpoint
